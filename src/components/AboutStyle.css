@@ -1,0 +1,26 @@
+.portrait {
+    width: 400px;
+    border-radius: 50% 20% / 10% 40%;
+    position: absolute;
+ top: 150px;
+    left: 600px;
+  
+   
+}
+
+.about-container {
+    background-color: black;
+    height: 100vh;
+}
+
+.text-container {
+    color: white;
+    max-width: 500px;
+    font-size: larger;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: absolute;
+   top: 150px;
+   left: 0;
+
+}
+
