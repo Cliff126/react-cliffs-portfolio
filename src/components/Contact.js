@@ -1,6 +1,6 @@
 import React from "react";
-import ContactStyle from "./ContactStyle.css";
-import { Form, Col, Row, Button } from "react-bootstrap";
+// import ContactStyle from "./ContactStyle.css";
+import { Form, Col, Button } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../App.css";
 
