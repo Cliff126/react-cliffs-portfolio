@@ -1,6 +1,6 @@
 import React from "react";
 import "./HomeStyle.css";
-// import AdobeStock_358745451 from "../images/AdobeStock_358745451.jpeg";
+
 
 
 function Home() {
