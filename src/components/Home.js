@@ -24,7 +24,7 @@ function Home() {
         </div>
         <footer style={{ color: "white" }}>
           <Link
-            to="www.linkedin.com/in/
+            to="https://www.linkedin.com/in/
                cliffordlhunter/"
             style={{ color: "white", maxWidth: "60px"  }}
             className="link-contact"
