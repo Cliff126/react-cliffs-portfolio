@@ -25,7 +25,7 @@ function Home() {
         <footer style={{ color: "white" }}>
           <Link
             to="https://www.linkedin.com/in/
-               cliffordlhunter"
+               cliffordlhunter/"
             style={{ color: "white", maxWidth: "60px"  }}
             className="link-contact"
           >
