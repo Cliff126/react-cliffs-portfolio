@@ -30,7 +30,7 @@ function Contact() {
       <br></br>
       <p className="link-container">
         <br></br>
-        <Link href="mailto:cliffordhunterjr@gmail.com" className="link-contact">
+        <Link to="mailto:cliffordhunterjr@gmail.com" className="link-contact">
           cliffordhunterjr@gmail.com
         </Link>
         <br></br>
