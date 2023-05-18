@@ -1,8 +1,30 @@
-.form-contact {
-    max-width: 100%;
-    padding-top: 50px;
+.contact-para {
+    max-width: 400px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: white;
+    font-weight: 100;
+    margin-left: 40px;
+}
+
+
+.link-contact {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    color: white;
+    text-decoration: none;
+}
+
+
+.link-contact:hover {
+    color: blue;
+    border-bottom: 4px solid #fff;
+    transition: all 0.2s ease-out
+}
+
+.header-contact {
+  font-size: 90px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 100;
+    margin-top: 70px;
 }
 

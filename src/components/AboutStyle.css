@@ -15,11 +15,11 @@
 
 .text-container {
     color: white;
-    max-width: 500px;
+    max-width: 600px;
     font-size: larger;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     position: absolute;
-   top: 150px;
+   top: 100px;
    left: 0;
 
 }

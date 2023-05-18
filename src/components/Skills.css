@@ -1,0 +1,12 @@
+.skills-container {
+    background-color: black;
+    height: 220vh;
+}
+
+.para {
+    color: white;
+    max-width: 800px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    padding: 30px;
+}

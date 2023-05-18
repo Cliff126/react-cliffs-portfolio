@@ -35,7 +35,7 @@ function NavBarComponent() {
               </li>
               <li className="nav-item">
               <Link to="/skills" className="nav-links" onClick={closeMobileMenu}>
-                My Skills
+                My Resume
               </Link>
               </li>
               <li className="nav-item">

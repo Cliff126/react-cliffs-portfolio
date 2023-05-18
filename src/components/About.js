@@ -1,6 +1,7 @@
 import React from "react";
 import IMG_4579 from "../images/IMG_4579.jpeg";
 import "./AboutStyle.css";
+import { Link } from "react-router-dom";
 
 function About() {
   return (
@@ -11,6 +12,11 @@ function About() {
       <img className="portrait" src={IMG_4579} alt="portrait" />
 
       <div className="text-container">
+      <Link to="/" style={{ color: "white", marginTop: "80px" }}>
+          Home
+        </Link>
+        <br></br>
+        <br></br>
         <h1 style={{ color: "white" }}>About</h1>
         <br></br>
         <h3 style={{ color: "white", fontSize: "20px" }}>
@@ -20,8 +26,8 @@ function About() {
         <br></br>
         <p>
           I have taken a non-traditional journey, which has given me numerous
-          skills to build on in web development. I've taken some twists and
-          turns, starting in healthcare and contracting in Fatherhood social
+          skills to build on in web development. My twists and turns started in
+          healthcare and eventually led to contracting in Fatherhood social
           programs.
         </p>
         <br></br>
@@ -29,7 +35,8 @@ function About() {
           Fast forward to 2023 and I'm at the next turn, working my passion, Web
           Development. I have worked with MERN, including client interactive
           applications. Every project has been thoughtfully considered and
-          finished in a timely manner.
+          finished in a timely manner. Learning new methods of design and
+          animation excite and push me to be the version of my developer self.
         </p>
         <br></br>
         <p>

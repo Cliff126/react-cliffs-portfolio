@@ -1,5 +1,6 @@
 import React from "react";
 import "./HomeStyle.css";
+import { Link } from "react-router-dom";
 
 
 
@@ -19,12 +20,16 @@ function Home() {
             JavaScript/MongoDB/Express/React/Node
           </h6>
           <h2 className="home-title">
-            Project-focused and passionate to bring digital dreams to reality.
+            Project-focused and passionate to bring digital dreams to reality. I want to bring your design projects to center stage.
           </h2>
-          {/* <img className="home-pic" src={AdobeStock_291164587} alt="stage-pic"  /> */}
         </div>
-        <div className="home-program-background"> </div>
-        {/* <img className="home-program" src={AdobeStock_358745451} alt="programming icons"  /> */}
+     <footer style={{color: "white"}}>
+      <Link to="https://www.linkedin.com/in/
+cliffordlhunter" style={{color: "white"}}>LinkedIn</Link>
+<footer>
+  <Link to="https://github.com/Cliff126"  style={{color: "white"}}>GitHub</Link>
+</footer>
+     </footer>
       </div>
     </div>
   );

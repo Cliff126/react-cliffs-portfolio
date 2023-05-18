@@ -1,50 +1,41 @@
 import React from "react";
 // import ContactStyle from "./ContactStyle.css";
-import { Form, Col, Button } from "react-bootstrap";
-import "bootstrap/dist/css/bootstrap.min.css";
+// import { Form, Col, Button } from "react-bootstrap";
+// import "bootstrap/dist/css/bootstrap.min.css";
+import "./ContactStyle.css";
 import "../App.css";
+import { Link } from "react-router-dom";
 
 function Contact() {
   return (
     <div
-    className="home-container"
-    style={{ width: window.innerWidth, height: window.innerHeight }}
-  >
-    <div>
-      <Form className="form-contact">
-        {/* <Row className="mb-3"> */}
-        <Form.Group as={Col} controlId="formGridName">
-          <Form.Label style={{ color: "white" }}>Name</Form.Label>
-          <Form.Control
-            type="name"
-            placeholder="Enter name"
-            style={{ width: "300px" }}
-          />
-        </Form.Group>
-
-        <Form.Group controlId="formGridEmail">
-          <Form.Label style={{ color: "white" }}>Email</Form.Label>
-          <Form.Control
-            type="email"
-            placeholder="Enter email"
-            style={{ width: "300px" }}
-          />
-        </Form.Group>
-
-        <Form.Group className="mb-3" controlId="formGridMessage">
-          <Form.Label style={{ color: "white" }}>Message</Form.Label>
-          <Form.Control
-            type="text"
-            placeholder="Message"
-            style={{ width: "300px" }}
-          />
-        </Form.Group>
-
-        <Button variant="primary" type="submit" style={{ width: "150px" }}>
-          Send Message
-        </Button>
-      </Form>
-    </div>
+      className="home-container"
+      style={{ width: window.innerWidth, height: window.innerHeight }}
+    >
+      <h1 className="header-contact" style={{ color: "white" }}>Hello</h1>
+      <br></br>
+      <br></br>
+      <p className="contact-para" >
+        I can help you build and design your next project. Let me know what you
+        need. Send me a message and we will get started.
+      </p>
+      <br></br>
+      <br></br>
+      <br></br>
+      <p className="link-container">
+        <br></br>
+        <Link href="mailto:cliffordhunterjr@gmail.com" className="link-contact">
+          cliffordhunterjr@gmail.com
+        </Link>
+        <br></br>
+        <Link
+          to="https://www.linkedin.com/in/
+cliffordlhunter"
+          className="link-contact"
+        >
+          LinkedIn
+        </Link>
+      </p>
     </div>
   );
 }
