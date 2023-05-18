@@ -12,7 +12,7 @@ function About() {
       <img className="portrait" src={IMG_4579} alt="portrait" />
 
       <div className="text-container">
-      <Link to="/" style={{ color: "white", marginTop: "80px" }}>
+        <Link to="/" style={{ color: "white", marginTop: "80px", textDecoration: "none" }} className="link-home">
           Home
         </Link>
         <br></br>

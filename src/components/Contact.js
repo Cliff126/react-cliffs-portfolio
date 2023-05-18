@@ -1,7 +1,4 @@
 import React from "react";
-// import ContactStyle from "./ContactStyle.css";
-// import { Form, Col, Button } from "react-bootstrap";
-// import "bootstrap/dist/css/bootstrap.min.css";
 import "./ContactStyle.css";
 import "../App.css";
 import { Link } from "react-router-dom";
@@ -12,10 +9,19 @@ function Contact() {
       className="home-container"
       style={{ width: window.innerWidth, height: window.innerHeight }}
     >
-      <h1 className="header-contact" style={{ color: "white" }}>Hello</h1>
+      <Link
+        to="/"
+        style={{ color: "white", marginTop: "80px", textDecoration: "none" }}
+        className="link-home"
+      >
+        Home
+      </Link>
+      <h1 className="header-contact" style={{ color: "white" }}>
+        Hello
+      </h1>
       <br></br>
       <br></br>
-      <p className="contact-para" >
+      <p className="contact-para">
         I can help you build and design your next project. Let me know what you
         need. Send me a message and we will get started.
       </p>
@@ -30,7 +36,7 @@ function Contact() {
         <br></br>
         <Link
           to="https://www.linkedin.com/in/
-cliffordlhunter"
+             cliffordlhunter"
           className="link-contact"
         >
           LinkedIn

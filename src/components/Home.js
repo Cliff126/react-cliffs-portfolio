@@ -2,8 +2,6 @@ import React from "react";
 import "./HomeStyle.css";
 import { Link } from "react-router-dom";
 
-
-
 function Home() {
   return (
     <div
@@ -20,16 +18,29 @@ function Home() {
             JavaScript/MongoDB/Express/React/Node
           </h6>
           <h2 className="home-title">
-            Project-focused and passionate to bring digital dreams to reality. I want to bring your design projects to center stage.
+            Project-focused and passionate to bring digital dreams to reality. I
+            want to bring your design projects to center stage.
           </h2>
         </div>
-     <footer style={{color: "white"}}>
-      <Link to="https://www.linkedin.com/in/
-cliffordlhunter" style={{color: "white"}}>LinkedIn</Link>
-<footer>
-  <Link to="https://github.com/Cliff126"  style={{color: "white"}}>GitHub</Link>
-</footer>
-     </footer>
+        <footer style={{ color: "white" }}>
+          <Link
+            to="https://www.linkedin.com/in/
+               cliffordlhunter"
+            style={{ color: "white", maxWidth: "60px"  }}
+            className="link-contact"
+          >
+            LinkedIn
+          </Link>
+          <footer>
+            <Link
+              to="https://github.com/Cliff126"
+              style={{ color: "white", maxWidth: "50px" }}
+              className="link-contact"
+            >
+              GitHub
+            </Link>
+          </footer>
+        </footer>
       </div>
     </div>
   );

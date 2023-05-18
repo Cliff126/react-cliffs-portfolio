@@ -1,37 +1,18 @@
-
 .home-container {
-    background: url('../images/blackStage.jpeg') center center/cover no-repeat;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    box-shadow: inset 0 0 0 10px;
-    object-fit: contain;
-
-} 
-
-
+  background: url("../images/blackStage.jpeg") center center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: inset 0 0 0 10px;
+  object-fit: contain;
+}
 
 .home-title {
-    color: white;
-    display: flex;
-    font-size: 35px;
-    margin-top: 80px;
-    max-width: 400px;
-     
+  color: white;
+  display: flex;
+  font-size: 35px;
+  margin-top: 80px;
+  max-width: 400px;
 }
 
 
-/* .home-program {
-    width: 300px;
-    position: relative;
-    left: -250px;
-    bottom: 280px;
-} */
-
-/* .home-program-background {
-    background-image: url('../images/AdobeStock_358745451.jpeg') center center/cover no-repeat;
-    max-width: 60%;
-    height: 100vh;
-    
-    
-} */
