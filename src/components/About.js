@@ -7,19 +7,17 @@ function About() {
   return (
     <div
       className="about-container"
-      style={{ width: window.innerWidth, height: window.innerHeight }}
+   
     >
-      <img className="portrait" src={IMG_4579} alt="portrait" />
-
       <div className="text-container">
-        <Link to="/" style={{ color: "white", marginTop: "80px", textDecoration: "none" }} className="link-home">
+        <Link to="/" style={{ color: "rgb(2, 2, 88);", marginTop: "80px", textDecoration: "none" }} className="link-home">
           Home
         </Link>
         <br></br>
         <br></br>
-        <h1 style={{ color: "white" }}>About</h1>
+        <h1 style={{ color: "rgb(2, 2, 88)" }}>About</h1>
         <br></br>
-        <h3 style={{ color: "white", fontSize: "20px" }}>
+        <h3 style={{ color: "rgb(2, 2, 88)", fontSize: "20px" }}>
           I am a builder, creator, and problem solver.
         </h3>
         <br></br>

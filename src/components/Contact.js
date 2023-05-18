@@ -35,8 +35,7 @@ function Contact() {
         </Link>
         <br></br>
         <Link
-          to="https://www.linkedin.com/in/
-             cliffordlhunter"
+          to="https://www.linkedin.com/in/cliffordlhunter"
           className="link-contact"
         >
           LinkedIn
