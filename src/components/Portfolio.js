@@ -2,7 +2,10 @@ import React from 'react'
 
 function Portfolio() {
   return (
-    <div>
+    <div 
+    className="home-container"
+    style={{ width: window.innerWidth, height: window.innerHeight }}
+  >
      
     </div>
   )
