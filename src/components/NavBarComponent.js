@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import AdobeStock_430723045 from '../images/AdobeStock_430723045.jpeg'
-import NavBarComponentStyle from './NavBarComponentStyle.css'
-import IMG_4579 from '../images/IMG_4579.jpeg'
+import './NavBarComponentStyle.css'
+// import IMG_4579 from '../images/IMG_4579.jpeg'
 
 
 function NavBarComponent() {

@@ -1,6 +1,6 @@
 import React from "react";
 import IMG_4579 from "../images/IMG_4579.jpeg";
-import AboutStyle from "./AboutStyle.css";
+import "./AboutStyle.css";
 
 function About() {
   return (

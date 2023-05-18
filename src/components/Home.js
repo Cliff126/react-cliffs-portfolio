@@ -1,7 +1,7 @@
 import React from "react";
-import HomeStyle from "./HomeStyle.css";
-import AdobeStock_358745451 from "../images/AdobeStock_358745451.jpeg";
-import { Container } from "react-bootstrap";
+import "./HomeStyle.css";
+// import AdobeStock_358745451 from "../images/AdobeStock_358745451.jpeg";
+
 
 function Home() {
   return (
